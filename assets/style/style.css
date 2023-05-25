@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "outfit";
+    src: url("../fonts/Outfit/Outfit-Regular.ttf");
+}
+@font-face {
+    font-family: "outfit-bold";
+    src: url("../fonts/Outfit/Outfit-Bold.ttf");
+}
+body{
+    margin: 0;
+    background-color: hsl(212, 45%, 89%);
+}
+section:last-child{
+    justify-content: flex-end;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 98vh;
+}
+.QRCODE>img{
+    width: 90%;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+.QRCODE{
+    width: 300px;
+    height: 470px;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+.QRCODE>h1{
+    font-family: "outfit-bold";
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    font-size: 20px;
+}
+p,h1{
+    padding: 0 20px;
+}
+.QRCODE>p{
+    font-size: 15px;
+    font-family: "outfit";
+    font-weight: 400;
+    margin: 0 15px ;
+    color: hsl(220, 15%, 55%);
+}
